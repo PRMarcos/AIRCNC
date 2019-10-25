@@ -9,4 +9,7 @@ The project uses the Airbnb business idea applied to the development area. This 
 ## How to test it:
 
 Web: https://aircnc-31224.web.app/
+
 Mobile: https://expo.io/@thesys/aircncmobile
+
+[Click here to download APK](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40thesys/aircncmobile-c8239b7ab82f4a6fa7ca443da1fd6b99-signed.apk)
