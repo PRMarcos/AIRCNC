@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AirCncMobile",
+    "slug": "aircncmobile",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "android": {
+      "package": "com.marcos.aircncmobile"
+    },
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.marcos.aircncmobile",
+      "supportsTablet": true
+    },
+    "description": "Project developed with the objective of applying the knowledge in ReactJS and React Native."
+  }
+}

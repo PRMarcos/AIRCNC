@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+}
+
+html, body, #root{
+  min-height: 100%;
+}
+
+body{
+  background:  #000 url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-fontsmoothing: antialiased !important;
+}
+
+body, input, button{
+  font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container{
+  margin: 80px auto;
+  max-width: 450px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#header{
+  height: 45px;
+  background-color: rgba(255,255,255,.4);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+}
+
+#header.hideheader{
+  background-color: rgba(255,255,255,.0);
+}
+#header button.btn{
+  border:0;
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  background: #f05a5b;
+  color:#fff;
+  cursor:pointer;
+}
+
+#header h4{
+  font-size: 16px;
+  font-weight: normal;
+  color:#444;
+ 
+}
+
+
+.content{
+  width: 100%;
+  background: rgba(255, 255, 255, .8);
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+}
+.content > p{
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+
+}
+
+.content form{
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label{
+ font-size: 14px;
+ color:#444;
+ font-weight: bold;
+ margin-bottom: 8px;
+}
+.content form label span{
+  font-weight: normal;
+  
+  color: #999;
+  font-size: 12px;
+}
+
+
+.content form input{
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+.content form input.is-invalid{
+  border: 1px solid rgb(212, 78, 78);
+}
+
+.content  button.btn{
+  border:0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background: #f05a5b;
+  color:#fff;
+  cursor:pointer;
+
+}
+
+.content  button.disabled{
+  border:0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color:#fff;
+  cursor:pointer;
+  background: #704446f8;
+
+
+}
+.content  button.hide{
+  visibility: hidden;
+
+
+}
+
+.content  button.btn:hover{
+  background: #e14f50;
+}
