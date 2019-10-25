@@ -2,7 +2,7 @@
 Project developed  to apply the knowledge in ReactJS and React Native.
 
 ## Description:
-The project uses the Airbnb business idea applied to the development area. This way companies can provide places where developers can work and collaborate with their teams, while developers can choose from Spots provided according to the technologies of interest and request a Spot booking.
+The project uses the [Airbnb](https://www.airbnb.com.br/) business idea applied to the development area. This way companies can provide places where developers can work and collaborate with their teams, while developers can choose from Spots provided according to the technologies of interest and request a Spot booking.
 
 #### This project is served through Firebase
 
